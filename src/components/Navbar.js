@@ -23,7 +23,7 @@ function Navbar() {
                   className="navbar-icon"
                   onClick={closeMobileMenu}
                 />
-                TURNER
+                PAYYBII
               </Link>
             </div>
             <div>
@@ -44,13 +44,13 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/about"
+                    to="/section"
                     className={({ isActive }) =>
                       "nav-links" + (isActive ? " activated" : "")
                     }
                     onClick={closeMobileMenu}
                   >
-                    Section
+                    Services
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -64,6 +64,15 @@ function Navbar() {
                     Products
                   </NavLink>
                 </li>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  <button className="nav-item-button">SIGN UP</button>
+                </NavLink>
               </ul>
             </div>
           </div>

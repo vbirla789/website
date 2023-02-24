@@ -94,6 +94,19 @@
   background: #0a0a1b;
 }
 
+.nav-item-button {
+  width: 100px;
+  border: solid white;
+  border-width: 1.5px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+.nav-item-button:hover {
+  color: #09bef0;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;

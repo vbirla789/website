@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import { dataThree } from "../components/Data";
+import First from "../components/First";
 
 function Contact() {
   return (
-    <div className='contact'>
-      <h1>Contact</h1>
+    <div>
+      <First {...dataThree} />
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

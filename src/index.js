@@ -8,7 +8,7 @@ import {
   Outlet,
 } from "react-router-dom";
 import Home from "./routes/Home";
-import About from "./routes/About";
+import Section from "./routes/Section";
 import Navbar from "./components/Navbar";
 import Contact from "./routes/Contact";
 import "./App.css";
@@ -35,8 +35,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "about",
-        element: <About />,
+        path: "section",
+        element: <Section />,
       },
       {
         path: "contact",
